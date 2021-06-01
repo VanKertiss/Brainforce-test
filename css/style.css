@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Geometria Thin';
+    src: url('../fonts/geometria.ttf');
+}
+
+body {
+    font-family: 'Geometria Thin';
+    color: #333333;
+}
+
+.container {
+    max-width: 1380px;
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 29px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 67px;
+}
+
+.phone span {
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-left: 70px;
+}
+
+.navLink {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+}
+
+.nav_active {
+    color: #828282;
+}
+
+.search {
+    padding-right: 21px;
+    padding-bottom: 7px;
+    margin-left: 131px;
+    border-bottom: 2px dashed #333333;
+}
+
+.consultatin {
+    margin-left: 36px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid #333333;
+    background: white;
+}
+
+main {
+    padding-top: 76px;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.main1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textBlock {
+    max-width: 447px;
+}
+
+.descriptTitle {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.descriptDescript {
+    font-size: 16px;
+    color: #828282;
+}
+
+.chat {
+    background: #E0E0E0;
+    border-radius: 8px;
+    padding: 157px 204px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.piano {
+    display: flex;
+    margin-top: 40px;
+}
+
+.pianoTitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.accordion {
+    background: #F4F4F4;
+    border: none;
+    border-radius: 8px;
+    padding: 26px 89px 26px 30px;
+    margin-left: 20px;
+    width: 90%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.default{
+    max-height: 500px;
+}
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    background: #F4F4F4;
+    width: 72.5%;
+    margin-left: 20px;
+    transition: max-height 0.3s ease-out;
+}
+
+.key{
+    margin-bottom: 5px;
+}
+
+.main2, .main3{
+    max-width: 913px;
+    padding-bottom: 70px;
+}
+
+.main3{
+padding-bottom: 0;
+}
+
+.mainBlock{
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom ;
+    background-size: 65% 90%;
+}
+
+.more{
+    text-align: right;
+    transform: rotate(45deg);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px;
+    background:#333333;
+    color: white;
+}
+
+.footerTitle{
+    font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 38px;
+color: #E0E0E0;
+margin-bottom: 40px;
+}
+
+.section{
+    margin-bottom: 10px;
+}
+
+.contact{
+    margin-bottom: 40px;
+}
+
+.contact span{
+    margin-right: 40px;
+    
+}
+
+.map{
+    max-width: 613px;
+}
+
+.footerNavLinks{
+    display: flex;
+    flex-direction: column;
+    margin-right: 136px;
+}
+
+.footerNavLink{
+    text-decoration: none;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.footerNav{
+    display: flex;
+}
+
+.footerContacts div {
+    margin-bottom: 20px;
+}
+
+.developerInformation{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 9px;
+    font-size: 16px;
+}
